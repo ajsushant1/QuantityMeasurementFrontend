@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-top: 15px;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+label{
+  color: brown;
+  padding: 10px;
+}
+.box{
+  width: 520px;
+  height: 270px;
+  background:rgba(0,0,0,0.2);
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+}
+
+input{
+  display: inline-block;
+  border: thin solid;
+  border-radius: 3px;
+  padding: 5px;
+  borderwidth: 0.2;
+  width: 200px;
+}
+select{
+  border: thin solid;
+  border-radius: 3px;
+  padding: 5px;
+  width: 208px;
+
+}
+.form{
+  overflow-x: auto;
+  overflow-y: hidden;;
+  display: inline-block;
+}
